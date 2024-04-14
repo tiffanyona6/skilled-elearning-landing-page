@@ -1,0 +1,45 @@
+.courses {
+    padding: 0 16px 0 16px;
+
+    &__gradiant {
+        color: white;
+        background: linear-gradient(#FF6F48, #F02AA6);
+        padding: 30px;
+        border-radius: 8px;
+    }
+
+    &__icon {
+        margin-bottom: 24px;
+    }
+
+    &__black-text {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 16px;
+
+    }
+
+    &__text {
+        font-size: 16px;
+        font-weight: 500;
+        color: #83869A;
+        margin-bottom: 24px;
+
+    }
+
+
+
+    &__pink-text {
+        font-size: 18px;
+        font-weight: 700;
+        color: #F74780;
+
+    }
+
+    &__padding {
+        padding: 0 28px 0 29px;
+    }
+
+
+
+}

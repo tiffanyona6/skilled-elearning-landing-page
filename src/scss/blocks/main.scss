@@ -1,0 +1,56 @@
+@use "../mixins/responsive.scss" as *;
+
+.main {
+    padding: 0 24px 0 24px;
+
+
+
+    @include responsive(tablet) {
+        width: 768px;
+
+
+
+    }
+
+}
+
+
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 38px;
+
+
+}
+
+.top-text {
+    font-weight: 800;
+    font-size: 28px;
+    color: #13183F;
+}
+
+.button {
+    background-color: #13183F;
+    border-radius: 100px;
+    padding: 9px 24px 9px 24px;
+    text-align: center;
+    justify-content: end;
+    color: white;
+
+}
+
+.text {
+    color: #83869A;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+
+.button--pink {
+    background: linear-gradient(#FF6F48, #F02AA6);
+    margin-bottom: 46px
+}

@@ -1,0 +1,29 @@
+.footer {
+
+    padding: 0 16px 0 16px;
+    background-color: #13183F;
+
+}
+
+
+.footer__bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.footer__text {
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+}
+
+
+.button--purple {
+    background: linear-gradient(#4851FF, #F02AA6);
+
+}
